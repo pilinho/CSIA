@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spin-off of "Project: Recipe book"</title>
+        <meta charset="utf-8">
+        <style>
+        h2{ color:rgb(255,0,0);
+            font-family:cursive;
+        }
+        h2{
+            background-color:rgb(0, 255, 0);
+        }
+        h1{
+            color:rgb(245, 233, 14);
+            font-family:italic 12px monospace;
+        }
+        strong{
+            color:rgb(190, 0, 0);}
+    body{
+        background-color:rgb(237, 252, 232);
+    }
+    th{
+        font-family:fantasy;
+        text-decoration:underline;
+    }
+    td{
+        font-family:"arial";
+    }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Easy Recipes to Make </h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#recipe1">Japanese food combo</a></li>
+            <li><a href="#recipe2">Hamburger with fries</a></li>
+          <li><a href="#recipe3">Chocolate Cake</a></li>   
+        </ol>
+        
+        <h2 id="recipe1">1) Sushi with Uncooked Salmon</h2>
+        <a href="https://www.soundsnap.com/crowd_in_a_sushi_bar_at_a_table">Audio: people in a restaurant (listen while you're reading the sushi part)</a>
+        
+        <ul>
+            <li><strong>Cooking Average Time:</strong> 15 min </li>
+            <li><strong>Serves:</strong> 4 people</li>
+            <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/sushi.png" width="200">
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <td> Rice, seaweed, cream cheese and salmon </td>
+            <td>200g of rice, one salmon, one piece of seaweed, and 100g of cream cheese
+            
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Spread the seaweed with a layer of prepared sushi rice.
+</p>
+<p><strong>Step 2:</strong> Get the salmon and cut straight down through the filet, then cut that piece in half through the center</p>
+<p><strong>Step 3:</strong> Place the rest of the ingredients (cream cheese)on top of the rice straight
+</p>
+<p><strong>Step 4:</strong> Then roll the seaweed </p>
+<p><strong>Step 5:</strong> Get a knife and cut it in rolls</p>
+<p><strong><em>And there you have it</em></strong></p>
+<p><a href="https://youtu.be/EGeNKGosXA8">How to make sushi</a></p>
+
+
+<h2 id="recipe2">2) Hamburger with French fries</h2>
+<a href="https://www.soundsnap.com/restaurant_ambience_inside_a_fast_food_burger_restaurant_with_active_register_counter_busy_customers_and_beeps_wav_0">Audio people in fast food (listen while you're reading the hamburger part)</a>
+<ul> <li><strong>Cooking Average Time:</strong> 20 min</li>
+<li><strong>Serves:</strong>1 person</li>
+<img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/hamburger.png"width="200">
+    
+</ul>
+<table>
+<thead>
+    <tr>
+        <th>Ingredients</th>
+        <th>Quantity</th>
+    </tr>
+</thead>
+<tbody>
+    <td> Filet steak, bread, cheese, tomato and fries</td>
+    <td> 200g of steak, 200g of bread, 50g of cheese, one tomato and 100g of fries </td>
+    
+    
+</tbody>
+    
+</table>
+<p><strong>Step 1:</strong> Cook the filet until it is brown and bleeding</p>
+<p><strong>Step 2:</strong> After some time, put the cheese on top of the meat, with the steak still on the grill</p>
+<p><strong>Step 3:</strong> Take the steak and cheese out of the cooking pan and put them in a plate</p>
+<p><strong>Step 4:</strong> Cook the fries with oil until it is fried</p>
+<p><strong>Step 5:</strong> Cut the bread open and put the steak inside it and the tomato </p>
+<p><strong>Step 6:</strong> Put all of the fries in a plate with the hamburger also</p>
+<em>And there you have it</em>
+<p><a href="https://youtu.be/vVvlgy37-cw">How to make hamburger</a></p>
+
+<h2 id="recipe3">3) Chocolate Cake</h2>
+<a href="https://www.soundsnap.com/industrial_ambience_cacao_workshop_oven_running_on_high_mode_starting_running_and_stopping_stove_fan_on_low_oven">Audio of cake industry (listen while you're reading the cake part)</a>
+
+<ul>
+            <li><strong>Cooking Average Time:</strong> 30 min </li>
+            <li><strong>Serves:</strong> More than four</li>
+            <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/cake.png" width="200">
+        </ul>
+        <table>
+<thead>
+    <tr>
+        <th>Ingredients</th>
+        <th>Quantity</th>
+    </tr>
+</thead>
+<tbody>
+    <td>	Cocoa powder,
+	baking powder,	butter at room temperature
+	caster sugar
+ large	eggs, beaten
+	milk
+ tsp	vanilla extract.
+For the filling:
+	butter at room temperature,
+	icing sugar,
+	vanilla extract,
+	milk,
+	dark chocolate, and
+	cocoa powder.</td>
+    <td> 90 g	cocoa powder,
+6 tsp (gf)	baking powder,
+300 g	butter at room temperature,
+330 g	caster sugar,
+6 large	eggs, beaten,
+4 1/2 tbsp	milk,
+2 1/2 tsp	vanilla extract.
+For the filling:
+500 g	butter at room temperature,
+1,2 kg	icing sugar,
+1 tsp	vanilla extract,
+4 tbsp	milk,
+150 g	dark chocolate,
+75 g	cocoa powder.</td>
+    
+    
+</tbody>
+    
+</table>
+<p><strong>Preparation:</strong> Pre-heat the oven to 170°/150°C Fan/Gas Mark 3.
+Place the butter and caster sugar into a mixing bowl and beat well for 1-2 minutes using an electric mixer, until the mixture is light and pale.
+Add the remaining sponge ingredients and mix for a further 2 minutes.
+Place into two round 20cm cake tins that have been greased and base-lined with baking parchment
+Bake in the pre-heated oven for 30 minutes, or until the cakes spring back when lightly touched.
+Leave in the tins until the sponge has cooled before turning out onto a cooling rack.
+</p>
+<p><strong>To make the buttercream and decorate:</strong>
+
+Beat together the butter, icing sugar, vanilla extract and milk until soft. Place 2 generous tablespoons of mixture in one bowl and 4 into another (the smaller amount for the cake topping and the rest for the cake filling).
+Crumble 4 Chocolate O’s into the buttercream to make the filling. Spread evenly between the sponge layers.
+Melt the chocolate in a small bowl over a pan of hot water or carefully melt in a microwave. </p>
+
+<p><strong><em>And there you have it</em></strong></p>
+<p><a href="https://youtu.be/xwKGZS3EE7Q">How to make chocolate cake</a></p>
+
+
+        
+    <p><em>Source: <a href="https://www.allrecipes.com/recipes/">All Recipes Site</a></em></p>
+    
+    </body>
+</html>
