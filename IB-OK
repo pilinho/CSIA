@@ -1,177 +1,125 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Spin-off of "Project: Recipe book"</title>
-        <meta charset="utf-8">
-        <style>
-        h2{ color:rgb(255,0,0);
-            font-family:cursive;
-        }
-        h2{
-            background-color:rgb(0, 255, 0);
-        }
-        h1{
-            color:rgb(245, 233, 14);
-            font-family:italic 12px monospace;
-        }
-        strong{
-            color:rgb(190, 0, 0);}
-    body{
-        background-color:rgb(237, 252, 232);
-    }
-    th{
-        font-family:fantasy;
-        text-decoration:underline;
-    }
-    td{
-        font-family:"arial";
-    }
-        </style>
-    </head>
-    <body>
-       
-        <h1>Easy Recipes to Make </h1>
+<html lang="en">
+<head>
+  <title>Leading Consultoria Empresarial</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/feather-icons"></script> 
+  <link rel="icon" type="image/x-icon" href="leadingCS.jpg">
+</head>
+<body> 
+<div id="all">
+    <div id="all2" class="topnav">
+        <div class="topnav" id="myTopnav">
+          <a href="index.html"><img class="LeadingImage" src="leadingCS.jpg" width="100"></a>
+          <a href="index.html" class="active" title="Volte à página inicial">PÁGINA INICIAL</a>
+          <a href="contact.html" title="Contate-nos">CONTATO</a>
+          <a href="about.html" title="Sobre nós">SOBRE</a>
+          <a href="login.html" title="Faça seu login">LOGIN</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <a href="https://www.google.com/maps/place/Rua+Jaguaria%C3%ADva,+49+-+Alphaville+Graciosa,+Pinhais+-+PR,+83327-076/@-25.3929798,-49.1674555,17z/data=!3m1!4b1!4m5!3m4!1s0x94dcef21ab0b930b:0xcb6c7d6e5c14e67b!8m2!3d-25.3929798!4d-49.1652668" class="address" target="_blank" >Rua Jaguariaíva, 49 - Alphaville Graciosa, Pinhais - PR, 83327-076</a>
+        </div> 
         
-        <h2>Contents:</h2>
-        
-        <ol>
-            <li><a href="#recipe1">Japanese food combo</a></li>
-            <li><a href="#recipe2">Hamburger with fries</a></li>
-          <li><a href="#recipe3">Chocolate Cake</a></li>   
-        </ol>
-        
-        <h2 id="recipe1">1) Sushi with Uncooked Salmon</h2>
-        <a href="https://www.soundsnap.com/crowd_in_a_sushi_bar_at_a_table">Audio: people in a restaurant (listen while you're reading the sushi part)</a>
-        
-        <ul>
-            <li><strong>Cooking Average Time:</strong> 15 min </li>
-            <li><strong>Serves:</strong> 4 people</li>
-            <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/sushi.png" width="200">
-        </ul>
-        
-        <table>
-            <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-            <td> Rice, seaweed, cream cheese and salmon </td>
-            <td>200g of rice, one salmon, one piece of seaweed, and 100g of cream cheese
-            
-            </tbody>
-        </table>
-        
-        <p><strong>Step 1:</strong> Spread the seaweed with a layer of prepared sushi rice.
-</p>
-<p><strong>Step 2:</strong> Get the salmon and cut straight down through the filet, then cut that piece in half through the center</p>
-<p><strong>Step 3:</strong> Place the rest of the ingredients (cream cheese)on top of the rice straight
-</p>
-<p><strong>Step 4:</strong> Then roll the seaweed </p>
-<p><strong>Step 5:</strong> Get a knife and cut it in rolls</p>
-<p><strong><em>And there you have it</em></strong></p>
-<p><a href="https://youtu.be/EGeNKGosXA8">How to make sushi</a></p>
-
-
-<h2 id="recipe2">2) Hamburger with French fries</h2>
-<a href="https://www.soundsnap.com/restaurant_ambience_inside_a_fast_food_burger_restaurant_with_active_register_counter_busy_customers_and_beeps_wav_0">Audio people in fast food (listen while you're reading the hamburger part)</a>
-<ul> <li><strong>Cooking Average Time:</strong> 20 min</li>
-<li><strong>Serves:</strong>1 person</li>
-<img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/hamburger.png"width="200">
+      </div> 
+  </div>
+    <h1 class="title">Leading Consultoria <br> desde 2001 atendendo todos...</h1>
+    <div class="card2">
+      <div class="container2">
+        <h2 style="text-align: center;">Há 20 anos atendendo todos...</h2>
+        <p><!--colocar foto--></p>
+        <p><img class="imgabout" src="CSimage4.jpg"></p> 
+        <p>A Leading trabalha há mais de 20 anos oferecendo serviços com um foco em atender as necessidades financeiras de seus clientes, podendo prever se a empresa que está sendo ajudada está em um momento bom (crescimento) ou em um momento ruim (declínio), fazendo o possível para que eles saiam satisfeitos.</p>
+    <p class="leading">
     
-</ul>
-<table>
-<thead>
-    <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-    </tr>
-</thead>
-<tbody>
-    <td> Filet steak, bread, cheese, tomato and fries</td>
-    <td> 200g of steak, 200g of bread, 50g of cheese, one tomato and 100g of fries </td>
-    
-    
-</tbody>
-    
-</table>
-<p><strong>Step 1:</strong> Cook the filet until it is brown and bleeding</p>
-<p><strong>Step 2:</strong> After some time, put the cheese on top of the meat, with the steak still on the grill</p>
-<p><strong>Step 3:</strong> Take the steak and cheese out of the cooking pan and put them in a plate</p>
-<p><strong>Step 4:</strong> Cook the fries with oil until it is fried</p>
-<p><strong>Step 5:</strong> Cut the bread open and put the steak inside it and the tomato </p>
-<p><strong>Step 6:</strong> Put all of the fries in a plate with the hamburger also</p>
-<em>And there you have it</em>
-<p><a href="https://youtu.be/vVvlgy37-cw">How to make hamburger</a></p>
+    </p>
+    </div> 
+    </div>
+    <div class="cardLeft">
+      <div class="containerLeft">
+        <h2 style="text-align: center;">O que nós oferecemos?</h2>
+        <p><img class="imgabout" src="CSimage4.jpg"></p>
+        <p class="leftListContainer" style="display: block;"> 
+          <br>Exame das demonstrações contábeis para emissão de parecer de auditoria;
+          <br>
+          <br>Revisões especiais e limitadas cuja finalidade é a emissão de relatórios específicos determinados pela alta administração da empresa;
+          <br>
+          <br>Due diligence contábil;
+          <br>
+          <br>Avaliação das políticas e critérios contábeis adotados pelas empresas;
+          <br>
+          <br>Auditoria operacional de áreas específicas.
+        </p>   
+    <p>
+    </p>
+    </div> 
+    </div>
 
-<h2 id="recipe3">3) Chocolate Cake</h2>
-<a href="https://www.soundsnap.com/industrial_ambience_cacao_workshop_oven_running_on_high_mode_starting_running_and_stopping_stove_fan_on_low_oven">Audio of cake industry (listen while you're reading the cake part)</a>
+<div class="pageDown">
+  <div class="empresas">
+      <div class="bottom">
+        <p><img class='imgParcerias' src="2022-03-29.png" width="600px"></p>
+        <h3 class="talk">FALE CONOSCO
+            <p class="pageDownPhone">
+              <a title="Clique e ligue para a Leading" href="tel: (41) 3661-2350"><img class='phone' src="phoneCS.png" width="50"></a>
+            </p>
+            <p class="pageDownMail">
+              <a title="email" href="mailto:paulo.moraes@leadingconsultoria.com.br"><img class="mail" src="emailCS.png" width="50"></a>
+            </p>    
+    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.35336134977!2d-49.16745548498654!3d-25.392979783805455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcef21ab0b930b%3A0xcb6c7d6e5c14e67b!2sRua%20Jaguaria%C3%ADva%2C%2049%20-%20Alphaville%20Graciosa%2C%20Pinhais%20-%20PR%2C%2083327-076!5e0!3m2!1spt-BR!2sbr!4v1645014894256!5m2!1spt-BR!2sbr" width="650" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>  
+      </div>  
+      <p class="bottomTextAutoral">Direitos Autorais Reservados à Leading Consultoria © 2001</p>     
+  </div>
+</div>
+<div class="slideshowAll">
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img class="slideshowImg" src="CSimage.jpg" style="width:75%">
+      <div class="text">Conte-nos o que você achou do nosso serviço, conte-nos o que podemos melhorar, ou peça nossa ajuda: <br> <a href="contact2.html">Comece formulário</a></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img class="slideshowImg" src="CSimage3.jpg" style="width:75%">
+      <div class="text">O que somos e o que fazemos? <a href="about.html">Saiba mais...</a></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img class="slideshowImg" src="ContainerCSImage.jpg" style="width: 75%;">
+      <div class="text">Quer ter mais acesso às páginas e estatísticas? Faça seu <a href="login.html">Login</a></div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div class="dotMedia" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</div>
+   
+ 
 
-<ul>
-            <li><strong>Cooking Average Time:</strong> 30 min </li>
-            <li><strong>Serves:</strong> More than four</li>
-            <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/cake.png" width="200">
-        </ul>
-        <table>
-<thead>
-    <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-    </tr>
-</thead>
-<tbody>
-    <td>	Cocoa powder,
-	baking powder,	butter at room temperature
-	caster sugar
- large	eggs, beaten
-	milk
- tsp	vanilla extract.
-For the filling:
-	butter at room temperature,
-	icing sugar,
-	vanilla extract,
-	milk,
-	dark chocolate, and
-	cocoa powder.</td>
-    <td> 90 g	cocoa powder,
-6 tsp (gf)	baking powder,
-300 g	butter at room temperature,
-330 g	caster sugar,
-6 large	eggs, beaten,
-4 1/2 tbsp	milk,
-2 1/2 tsp	vanilla extract.
-For the filling:
-500 g	butter at room temperature,
-1,2 kg	icing sugar,
-1 tsp	vanilla extract,
-4 tbsp	milk,
-150 g	dark chocolate,
-75 g	cocoa powder.</td>
-    
-    
-</tbody>
-    
-</table>
-<p><strong>Preparation:</strong> Pre-heat the oven to 170°/150°C Fan/Gas Mark 3.
-Place the butter and caster sugar into a mixing bowl and beat well for 1-2 minutes using an electric mixer, until the mixture is light and pale.
-Add the remaining sponge ingredients and mix for a further 2 minutes.
-Place into two round 20cm cake tins that have been greased and base-lined with baking parchment
-Bake in the pre-heated oven for 30 minutes, or until the cakes spring back when lightly touched.
-Leave in the tins until the sponge has cooled before turning out onto a cooling rack.
-</p>
-<p><strong>To make the buttercream and decorate:</strong>
-
-Beat together the butter, icing sugar, vanilla extract and milk until soft. Place 2 generous tablespoons of mixture in one bowl and 4 into another (the smaller amount for the cake topping and the rest for the cake filling).
-Crumble 4 Chocolate O’s into the buttercream to make the filling. Spread evenly between the sponge layers.
-Melt the chocolate in a small bowl over a pan of hot water or carefully melt in a microwave. </p>
-
-<p><strong><em>And there you have it</em></strong></p>
-<p><a href="https://youtu.be/xwKGZS3EE7Q">How to make chocolate cake</a></p>
-
-
-        
-    <p><em>Source: <a href="https://www.allrecipes.com/recipes/">All Recipes Site</a></em></p>
-    
-    </body>
+<script src="index.js"></script>
+  
+</body>
 </html>
+      
