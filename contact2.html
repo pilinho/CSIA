@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="./contact2.css">
+  <link rel="stylesheet" href="./contact2.js">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" /> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/feather-icons"></script> 
+  <link rel="icon" type="image/x-icon" href="leadingCS.jpg">
+</head>
+<body>
+  <div id="all">
+    <div id="all2" class="topnav">
+        <div class="topnav" id="myTopnav">
+          <a href="index.html"><img class="LeadingImage" src="leadingCS.jpg" width="100"></a>
+          <a href="index.html" title="Volte à página inicial">PÁGINA INICIAL</a>
+          <a href="contact.html" title="Contate-nos">CONTATO</a>
+          <a href="about.html" title="Sobre nós">SOBRE</a>
+          <a href="login.html" title="Faça seu login">LOGIN</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <a href="https://www.google.com/maps/place/Rua+Jaguaria%C3%ADva,+49+-+Alphaville+Graciosa,+Pinhais+-+PR,+83327-076/@-25.3929798,-49.1674555,17z/data=!3m1!4b1!4m5!3m4!1s0x94dcef21ab0b930b:0xcb6c7d6e5c14e67b!8m2!3d-25.3929798!4d-49.1652668" class="address" target="_blank" >Rua Jaguariaíva, 49 - Alphaville Graciosa, Pinhais - PR, 83327-076</a>
+        </div> 
+        
+      </div> 
+  </div>
+     
+    </div>  
+    </div>
+ 
+    
+    
+    
+    <div class="row">
+      <div class="column">
+        <form name="myForm">
+          <label for="fname">Primeiro nome:</label>
+          <input type="text" id="fname" name="firstname" placeholder="Seu nome..." required>
+          <label for="lname">Último nome:</label>
+          <input type="text" id="lname" name="lastname" placeholder="Seu último nome..." required>
+         
+          
+          <select id="country" required>
+            <option value='USA'>United States of America</option>
+            <option value='Sverige'>Sverige</option>
+            <option value='Australia'>Australia</option>
+            <option value='Canada'>Canada</option>
+            <option value='Brasil'>Brasil</option>
+            <option value='Other country'>Outro país</option>
+          </select> 
+          <label for="countries">Escreva o país:</label>
+          <input type="text" id="countryText" name="firstname" placeholder="Type the country...">
+           
+          <label for="state">Estado que você reside (se você mora no Brasil):</label>
+          <select id="state" name="state" required>
+            <option value='nenhuma'>Nenhuma das opções</option>  
+            <option value="acre">Acre (AC)</option>
+            <option value="alagoas">Alagoas (AL)</option>
+            <option value="amapá">Amapá (AP)</option>
+            <option value="amazonas">Amazonas (AM)</option>
+            <option value="bahia">Bahia (BA)</option>
+            <option value="ceará">Ceará (CE)</option>
+            <option value="distrito federal">Distrito Federal (DF)</option>
+            <option value="espírito santo">Espírito Santo (ES)</option>
+            <option value="goiás">Goiás (GO)</option>
+            <option value="maranhão">Maranhão (MA)</option>
+            <option value="mato grosso">Mato Grosso (MT)</option>
+            <option value="mato grosso do sul">Mato Grosso do Sul (MS)</option>
+            <option value="minas gerais">Minas Gerais (MG)</option>
+            <option value="pará">Pará (PA)</option>
+            <option value="paraíba">Paraíba (PB)</option>
+            <option value="paraná">Paraná (PR)</option> 
+            <option value="pernambuco">Pernambuco (PE)</option>
+            <option value="piauí">Piauí (PI)</option>
+            <option value="rio de janeiro">Rio de Janeiro (RJ)</option>
+            <option value="rio grande do norte">Rio Grande do Norte (RN)</option>
+            <option value="rio grande do sul">Rio Grande do Sul (RS)</option>
+            <option value="rondônia">Rondônia (RO)</option>
+            <option value="roraima">Roraima (RR)</option>
+            <option value="santa catarina">Santa Catarina (SC)</option>
+            <option value="são paulo">São Paulo (SP)</option>
+            <option value="sergipe">Sergipe (SE)</option>
+            <option value="tocantins">Tocantins (TO)</option>
+          </select>
+          <label for="subject" id="subject">Escreva sua opinião:</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px" required></textarea>
+          <input onclick="window.location.href='index.html';" type="submit" value="Envie" id="subject">
+      </div>
+    </div>
+  </div>
+ </div> 
+ <script type="text/javascript" src="contact.js">
+ </script>
+</body>
+</html>
