@@ -1,21 +1,32 @@
-
-
+#all2{ 
+  top: 0;
+  width: 100%;
+  position:relative;
+  overflow: hidden;
+  z-index: 15;
+  background-color: white;
+}
+#all{
+  position: relative;z-index: 5;
+  background-color: whitesmoke;
+}
 #title{
   background-color: rgba(19, 70, 179, 0.575);
-  position: relative;left: 165px;top: 100px;
   height: 200px;
   width: 1055px;
   text-align: center;
+  align-items: center;
+  margin: 5% auto 15% auto;
 }
 
 .subject{
-  position: relative;left: 450px;top: 0px;
   background-color: white;
   text-decoration: none;
+  position: relative;top: -350px;
+  margin: 5% auto 15% auto;
+  font-size: 1vw;
 }
-
 .mainButton a {
-  float: left;
   display: block;
   color: black;
   text-align: center;
@@ -35,10 +46,10 @@
   body{
     margin:-20px;
     margin-top: -30px;
-    overflow-x: hidden;
-    height: 1000px;
+    overflow: hidden;
+    height: 1485px;
     background-color: whitesmoke;
-    background-image: url(CSimage6.jpg);
+    background-image: url(./Images/CSimage6.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
   background-size: 100% 100%;
@@ -47,7 +58,7 @@
   }
 
 .address{
-  position: relative;right: -190px;
+  position: relative;
   color: black;
   z-index: 5;
 }
@@ -135,16 +146,156 @@ ul li {
   }
 }
 
-@media screen and (min-width:1600px) {
-  #title{
-    position: relative;left: 350px;
-  }
-  .subject{
-    position: relative;left: 625px;
-  }
-}
-
 .LeadingImage{
   margin-bottom: -10px;
   margin-top: -10px;
+}
+
+@media screen and (max-width: 768px) {
+  .middleTexts{
+    font-size: 2vw;
+  }
+  .pageDown{
+    position:relative;
+    overflow: hidden;
+    bottom: -150px;
+    height: 700px;
+    overflow-y: hidden;
+  }
+  .map-responsive{
+    width: 100vw;
+    height: 30px;
+    position: relative;left: -200px;top: -300px;
+  }
+  h3{
+    position: relative;bottom: 100px;left: 300px;
+  }
+  #contactsDown{
+    position: relative;top: 50px;left: -250px;
+  }
+  .pageDownMail{
+    position: relative;top: -300px;left: -200px;
+  }
+  .pageDownPhone{
+    position: relative;
+    top: -310px;right: 0px;
+  }
+  .bottom{
+    position: relative;top: 50px;left: 30px;
+  }
+  .imgParcerias{
+    position: absolute;left: 310px;
+    width: 300px;
+  }
+  .bottomTextAutoral{
+    text-align: left;
+    position: relative;left: -350px;top: -600px;
+  }
+  h1{
+    position: relative;
+    width: 650px;
+    font-size: 3vw;
+    text-align: center;
+    left: 245px;
+  }
+  body{
+    height: 1200px;
+  }
+}
+@media screen and (max-width: 600px){
+  .middleTexts{
+    position: relative;
+  }
+  .pageDownMail{
+    position: relative;top: 0px;
+  }
+  .pageDownPhone{
+    position: relative;
+    top: 0px;right: 0px;
+  }
+  .talk{
+    position: relative;left: 315px;
+  }
+  h1{
+    width: 450px;
+    position: relative;
+  }
+  .mainButton{
+    margin: 5% auto 15% auto;
+    position: relative;
+    font-size: 2vw;
+    top: 120px;
+  }
+  .imgParcerias{
+    position: absolute;left: 280px;
+  }
+  .bottomTextAutoral{
+    text-align: center;
+    position: relative;left: -405px;top: -400px;
+    font-size: 2vw;
+  }
+  .pageDown{
+    position:relative;
+    overflow: hidden;
+    bottom: -65px;
+    height: 0px;
+    overflow-y: hidden;
+    height: 700px;
+  }
+  .bottom{
+    position: relative;top: 100px;left: -50px;
+  }
+  #contactsDown{
+    position: relative;top: 0px;left: -215px;
+  }
+  .map-responsive{
+    position: relative;top: 200px;left: -200px;
+  }
+}
+.talk{
+  position: relative;right: -300px;top: -300px;
+}
+
+.phone{
+  position: relative;top: 290px;left: -278px;
+}
+
+.mail{
+  position: relative;top: 205px;left: -200px;
+}
+
+.map-responsive{
+  position: relative;right: 255px;top: 32px;
+}
+
+.bottom{
+  bottom: 0;
+  height: 100px;
+}
+.pageDown{
+  background-color: rgb(247, 146, 64);
+  height: 850px;
+  z-index: 3; 
+  position: relative;left: -20px;bottom: 120px;
+  width: 1400px;
+  margin-bottom: -10px;
+  overflow: hidden;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  width: 110%;
+}
+.imgParcerias{
+  position: relative;right: -700px;top: 0px;
+  margin: 10px;
+}
+.bottomTextAutoral{
+  position: relative;top: 635px;
+  z-index: 20;
+  background-color: white;
+  text-align: center;
+}
+.pageDownPhone{
+  position: relative;top: -310px;left: 300px;
+}
+.pageDownMail{
+  position: relative;top: -300px;left: 300px;
 }

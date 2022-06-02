@@ -5,27 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Page</title>
-  <link rel="stylesheet" href="./contact.css">
-  <link rel="stylesheet" href="./contact.js">
+  <link rel="stylesheet" href="contact.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!--Montserrat font-->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="index.css" /> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://unpkg.com/feather-icons"></script> 
-  <link rel="icon" type="image/x-icon" href="leadingCS.jpg" id="tabIcon">
+  <link rel="icon" type="image/x-icon" href="./Images/leadingCS.jpg" id="tabIcon">
 </head>
 <body>
   <div id="all">
     <div id="all2" class="topnav">
         <div class="topnav" id="myTopnav">
-          <a href="index.html"><img class="LeadingImage" src="leadingCS.jpg" width="100"></a>
+          <a href="index.html"><img class="LeadingImage" src="./Images/leadingCS.jpg" width="100"></a>
           <a href="index.html" title="Volte à página inicial">PÁGINA INICIAL</a>
           <a href="contact.html" class="active" title="Contate-nos">CONTATO</a>
           <a href="about.html" title="Sobre nós">SOBRE</a>
-          <a href="login.html" title="Faça seu login">LOGIN</a>
+          <a href="signup.html" title="Faça sua Conta">SIGN UP</a>
+          <a href="login.html" title="Faça seu Login">LOGIN</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
@@ -37,34 +36,35 @@
      
     </div>  
     </div>
+    <div class="middleTexts">
       <div id="title">
-        <h1>Compartilhe sua opinião com a Leading Consultoria</h1>
         <p></p>
-      </div>
+      </div>  
     <div class="mainButton"> 
-      <a class="subject" href="contact2.html"><h2>Clique aqui e comece</h2></a> 
+      <a class="subject" href="contact2.html"><h2>Clique aqui e comece o formulário de contato</h2></a> 
     </div>
+  </div>
+    <div class="pageDown">
+      <div class="empresas">
+          <div class="bottom">
+            <p><img class='imgParcerias' src="./Images/2022-03-29.png" width="600px"></p>
+            <h3 class="talk">FALE CONOSCO
+                <p class="pageDownPhone">
+                  <a title="Clique e ligue para a Leading" href="tel: (41) 3661-2350"><img class='phone' src="./Images/phoneCS.png" width="50"></a>
+                </p>
+                <p class="pageDownMail">
+                  <a title="email" href="mailto:paulo.moraes@leadingconsultoria.com.br"><img class="mail" src="./Images/emailCS.png" width="50"></a>
+                </p>    
+        <div class="map-responsive">
+          <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.35336134977!2d-49.16745548498654!3d-25.392979783805455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcef21ab0b930b%3A0xcb6c7d6e5c14e67b!2sRua%20Jaguaria%C3%ADva%2C%2049%20-%20Alphaville%20Graciosa%2C%20Pinhais%20-%20PR%2C%2083327-076!5e0!3m2!1spt-BR!2sbr!4v1645014894256!5m2!1spt-BR!2sbr" width="650" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>        
+        
+      </div>  
+          </div>  
+          <p class="bottomTextAutoral">Direitos Autorais Reservados à Leading Consultoria © 2001</p>     
+      </div>
     
-    
- <script>
-  var prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("myTopnav").style.top = "0";
-    } else {
-      document.getElementById("myTopnav").style.top = "-50px";
-    }
-    prevScrollpos = currentScrollPos;
-  }
-  function myFunction() {
-    var x = document.getElementById("all2");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
+ <script src="contact.js">
  </script>
 </body>
 </html>

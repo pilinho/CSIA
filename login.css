@@ -1,257 +1,299 @@
 #all2{ 
-    margin: 10;
-    top: 0;
-    width: 100%;
-    position:relative;
-    overflow: hidden;
-    transition: 0.3s;
-    z-index: 15;
-    background-color: white;
-    position: relative;
-    z-index: ;
-  }
-  #all{
-    position: relative;z-index: 5;
-    background-color: whitesmoke;
-  }
-  
-  .address{
-    position: relative;right: -190px;
-    color: black;
-    z-index: 5;
-  }
-  
-  /*General*/
-body * {
-  font-family: "Montserrat", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-weight: bold;
-}
-h1{
-  position: relative;right: -55px;
-}
-
-ul li {
-  border: none !important;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: white;
-  overflow: hidden;
-  position: relative;
-  z-index: 30;
-  transition: top 0.3s;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  background-color: blue;
-  color: white;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
-}
-
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-@media screen and (max-width:600px) {
-  .address{
-    position: relative;left: 0px;
-  }
-}
-
-#myPassword{
-  position: relative;left: 25px;top: 50px;
-  width: 350px;
-  padding: 10px 30px;
-}
-#myEmail{
-  position: relative;left: 25px;top: 50px;
-  width: 350px;
-  padding: 10px 30px;
-}
-.forms{
-  background-color: rgba(0, 0, 255, 0.281);
-  width: 400px;
-  height: 440px;
-  position: relative;left: 500px;
-}
-.button{
-  position: relative;left: 38px;top: 50px;
-  background-color: rgba(0, 0, 255, 0.438);
-  padding: 10px;
-}
-.LeadingImage{
-  margin-bottom: -10px;
-  margin-top: -10px;
-}
-.button a:hover{
-  background-color: blue;
-}
-.psw{
-  position: relative;top: 50px;left: 25px;
-  margin-right: 20px;
-}
-.loginChange{
-  position: relative;
-}
-* {box-sizing: border-box}
-/* Full-width input fields */
-  input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 180px;
-  opacity: 0.9;
-}
-
-button:hover {
-  opacity:1;
-}
-
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-  
-}
-
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 150px;
-  margin-right: 10px;
-}
-
-.container {
-  padding: 16px;
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: #474e5d;
-  padding-top: 50px;
+  position:fixed;
+  transition: 0.3s;
+  z-index: 15;
+  background-color: white;
+}
+#all{
+  position: relative;z-index: 5;
+  background-color: whitesmoke;
 }
 
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+.address{
+  position: relative;
+  color: black;
+  z-index: 5;
 }
 
-/* Style the horizontal ruler */
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 35px;
-  top: 15px;
-  font-size: 40px;
-  font-weight: bold;
-  color: #f1f1f1;
-}
-
-.close:hover,
-.close:focus {
-  color: #f44336;
-  cursor: pointer;
-}
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
+  /*General*/
+  body * {
+    font-family: "Montserrat", sans-serif;
   }
   
+  h1{
+    margin: 5% auto 15% auto;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: bold;
+  }
+  
+  ul li {
+    border: none !important;
+  }
+  
+  .topnav {
+    background-color: white;
+    position: relative;
+    z-index: 30;
+    transition: top 0.3s;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  @media screen and (max-width: 650px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 800px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .address{
+      position: relative;left: 0px;
+    }
+    .topnav{
+      overflow: hidden;
+      z-index: 2;
+    }
+  }
+
+@media screen and (max-width:600px) {
+.address{
+  position: relative;left: 0px;
 }
-.signupbutton{
-  width: 250px;
-  position: relative;left:520px;top: -70px;
+}
+h1{
+position: relative;left: 0px;
+}
+.forms{
+background-color: rgba(0, 0, 255, 0.281);
+background-color: #fefefe;
+margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+width: 80%;
+text-align: center;
+
+}
+.button{
+position: relative;left: 38px;top: 50px;
+background-color: rgba(0, 0, 255, 0.438);
+padding: 10px;
+}
+.LeadingImage{
+margin-bottom: -10px;
+margin-top: -10px;
+}
+.button a:hover{
+background-color: blue;
+}
+.psw{
+position: relative;top: 50px;left: 25px;
+margin-right: 20px;
+}
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);*/
+*:focus {
+outline: none;
 }
 
-@media screen and (max-width:600px){
-  .forms{
-    position:;
-  }
+body {
+margin: 0;
+padding: 0;
+background: #DDD;
+font-size: 16px;
+color: #222;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+}
+
+#login-box {
+position: relative;
+margin: 5% auto 15% auto;
+width: 300px;
+height: 400px;
+background: #FFF;
+border-radius: 2px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+text-align: center;
+}
+
+.left {
+position: absolute;
+top: 0;
+left: 0;
+box-sizing: border-box;
+padding: 40px;
+width: 300px;
+height: 400px;
+}
+
+h1 {
+margin: 0 0 20px 0;
+font-weight: 300;
+font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+display: block;
+box-sizing: border-box;
+margin-bottom: 20px;
+padding: 4px;
+width: 220px;
+height: 32px;
+border: none;
+border-bottom: 1px solid #AAA;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 15px;
+transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+border-bottom: 2px solid #16a085;
+color: #16a085;
+transition: 0.2s ease;
+}
+
+input[type="submit"] {
+margin-top: 28px;
+width: 120px;
+height: 32px;
+background: #16a085;
+border: none;
+border-radius: 2px;
+color: #FFF;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+text-transform: uppercase;
+transition: 0.1s ease;
+cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+opacity: 0.8;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+opacity: 1;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+transition: 0.1s ease;
+}
+
+.or {
+position: absolute;
+top: 180px;
+left: 280px;
+width: 40px;
+height: 40px;
+background: #DDD;
+border-radius: 50%;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+line-height: 40px;
+text-align: center;
+}
+
+.right {
+position: absolute;
+top: 0;
+right: 0;
+box-sizing: border-box;
+padding: 40px;
+width: 300px;
+height: 400px;
+background: url('https://goo.gl/YbktSj');
+background-size: cover;
+background-position: center;
+border-radius: 0 2px 2px 0;
+}
+
+.right .loginwith {
+display: block;
+margin-bottom: 40px;
+font-size: 28px;
+color: #FFF;
+text-align: center;
+}
+
+button.social-signin {
+margin-bottom: 20px;
+width: 220px;
+height: 36px;
+border: none;
+border-radius: 2px;
+color: #FFF;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+transition: 0.2s ease;
+cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+transition: 0.2s ease;
+}
+
+button.social-signin:active {
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+background: #32508E;
+}
+
+button.social-signin.twitter {
+background: #55ACEE;
+}
+
+button.social-signin.google {
+background: #DD4B39;
 }

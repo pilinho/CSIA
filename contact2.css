@@ -1,128 +1,98 @@
-{
-    box-sizing: border-box;
-  }
-  
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #372cce;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #255892;
-  }
-  
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-  
-  #country1{
-    position: relative;top: 10px;
-  }
 
-  #subject{
-    position: relative;top: 20px;
-  }
-  
-  .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-    position: relative;left: 675px;
-  }
-  
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  
-  @media screen and (max-width: 650px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 50px;
-    }
-  }
-
-  body{
-    margin:-20px;
-    margin-top: -30px;
-    overflow-x: hidden;
-    height: 1000px;
-    background-color: whitesmoke;
-  }
-
-  .row{
-    position: relative;right: 350px;top: 100px;
-  }
-
-  .leading{
-    position: relative;top: 50px;left: -1550px;
-    outline: 0;
-    padding: 8px;
-    cursor: pointer;
-    margin: 0;
-  }
-
-  #all{
-    position: relative;z-index: 0;
-    background-color: whitesmoke;
-  }
-
-@media screen and (max-width: 650px) {
-  #all {
-    width: 100%;
-    display: block;
-  }
-  li{
-    width: 100%;
-    display: block;
-  }
+body{
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  z-index: 4;
-  position: relative;
+.container{
+  width: 90%;
+  height: 100vh;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow:  0px 5px 25px rgba(113, 115, 223, 0.2);
+  display: flex;
+  
+  align-items: center;
+  flex-direction: column;
+  margin: 5% auto 15% auto;
+}
+.container form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
 
-li {
-  display: inline;
-  position: relative;left: -20px;
-  z-index: 10;
-} 
-
-.address{
-  position: relative;right: -275px;
-  color: black;
-  z-index: 5;
+.inputBox{
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
-.speak{
-  position: relative;left: 700px;
-  z-index: 3;
+.inputBox input[type="text"], .inputBox input[type="email"]{
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 0px 10px;
+  font-size: 16px;
+  color: #444;
 }
 
-  /*General*/
-body * {
+.inputBox textarea{
+  width: 100%;
+  height: 120px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 0px 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+.inputBox button{
+  width: 100%;    
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background: rgb(0, 119, 255);
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.inputBox button:hover{
+  background: rgb(0, 17, 255);
+  transition: all 0.3s ease;
+}
+
+::placeholder{
+  font-size: 16px;
+}
+
+.alert{
+  width: 100%;
+  background: rgb(0, 255, 106);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  display: none;
+}
+body *{
   font-family: "Montserrat", sans-serif;
 }
 
@@ -131,10 +101,12 @@ h2,
 h3,
 h4 {
   font-weight: bold;
+  text-align: center;
 }
 
 ul li {
   border: none !important;
+  background-color: white;
 }
 
 .topnav {
@@ -143,9 +115,9 @@ ul li {
   position: relative;
   z-index: 30;
   transition: top 0.3s;
+  top: 0px;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
@@ -156,25 +128,21 @@ ul li {
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add an active class to highlight the current page */
 .topnav a.active {
   background-color: blue;
   color: white;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -182,8 +150,7 @@ ul li {
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -195,21 +162,19 @@ ul li {
     display: block;
     text-align: left;
   }
-  .address{
-    position: relative;left: -190px;
-  }
-  .column{
-    position: relative;left: 350px;
-    font-size: small;
-    z-index: 1;
-    top: 100px;
-  }
-  .topnav{
-    overflow: hidden;
-  }
 }
 
-.LeadingImage{
-  margin-bottom: -10px;
-  margin-top: -10px;
+#all2{
+  margin: 0;
+  top: 0;
+  width: 100%;
+  position:relative;
+  overflow: hidden;
+  transition: top 0.3s;
+  z-index: 5;
+}
+#all{
+  position: relative;z-index: 10;
+  background-color: whitesmoke;
+  display: inline;
 }

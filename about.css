@@ -1,0 +1,365 @@
+
+  
+  .title{
+    font-size: 35px;
+    position: relative;
+    width: 100%;
+    font-weight: bold, lighter;
+    position: relative;right: 0px;top: -10px;
+    z-index: 0;
+    text-align: center;
+    height: 625px;
+    background-image: url(./Images/prediosCS.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: 100% 100%;
+  color: white;
+  text-decoration: overline;
+}
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    position: relative;top: 100px;left: 100px;
+    z-index: 10;
+    min-width: 50%;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .CEOCard {
+    color: grey;
+  }
+  
+  .address{
+    position: relative;
+    color: black;
+    z-index: 5;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  .contact{
+    outline: 0;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    position:relative;left: 1150px;top: -201px;
+    text-decoration: none;  
+
+  }
+
+  #all2{
+    margin: 0;
+    top: 0;
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+    transition: top 0.3s;
+    z-index: 5;
+}
+@media screen and (max-width: 650px) {
+  #all {
+    width: 100%;
+    display: block;
+  }
+  li{
+    width: 100%;
+    display: block;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  z-index: 4;
+  position: relative;
+}
+
+li {
+  position: relative;left: -20px;
+  z-index: 10;
+  padding: 8px 10px;
+} 
+
+.speak{
+  position: relative;
+  z-index: 3;
+  text-decoration: none;
+}
+
+.image{
+  position: relative;top: 5px;right: -30px;
+  padding-left:8px;
+  text-align: center;
+}
+  .Sobre{
+      font-family: cursive;
+      outline: 0;
+      padding: 8px;
+      width: 40%;
+      position: relative;right: -350px;
+      
+  }
+
+
+  .row2{
+    position: relative;
+    margin: 5% auto 15% auto;
+    margin-top: 20px;
+    left: 450px;top: -400px;
+    font-size: 1vw;
+  }
+
+  .column2{
+    float: left;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  .container2::after, .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column2 {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .container2 {
+    padding: 0 16px;
+  }
+
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin:5% auto 15% auto;
+    text-align: justify;
+    position: relative;
+    min-width: 20%;
+    left: 350px;
+  }
+
+  .leading{
+    position: relative;left: 10px;
+    text-align: justify;
+    padding-right: 20px;
+  }
+
+  .leadingImg{
+    position: relative;top: -315px;left: 20px;
+  }
+
+  .imgabout{
+    position: relative;right: -20px;
+  }
+
+  .titles a:hover{
+    color: black;
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 650px) {
+    .all {
+      width: 100%;
+      display: block;
+    }
+  }
+
+body *{
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  text-align: center;
+}
+
+ul li {
+  border: none !important;
+  background-color: white;
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  z-index: 30;
+  transition: top 0.3s;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 650px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .address{
+    position: relative;left: 0px;
+  }
+  .topnav{
+    overflow: hidden;
+    z-index: 2;
+  }
+}
+
+.LeadingImage{
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+
+#all{
+  position: relative;z-index: 10;
+  background-color: whitesmoke;
+}
+
+.MoraesIMG{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.how{
+  position: relative;top: -450px;left:100px;
+  padding: 8px 10px;
+  background-color: rgb(34, 34, 133);
+}
+p{
+  text-align: justify;
+  padding: 8px 10px;
+}
+.services{
+  position: relative;left: 800px;
+  display: block;
+  top: -800px;
+  background-color: rgb(34, 34, 133);
+}
+ul{
+  padding: 8px;
+  text-align: justify;
+  position: relative;left: 20px;
+}
+.talk{
+  position: relative;right:300px;top: -300px;
+}
+
+.phone{
+  position: relative;right: -320px;top: -293px;
+}
+
+.mail{
+  position: relative;top: -377px;right: -400px;
+}
+
+.maps{
+  position: relative;right: -40px;top: -310px;
+}
+
+.bottom{
+  bottom: 0;
+  height: 100px;
+}
+
+.empresas{
+  position: relative;top: 35px;right: -10px;
+}
+.pageDown{
+  background-color: rgb(247, 146, 64);
+  height: 850px;
+  bottom: 0;
+  z-index: 3; 
+  position: relative;left: -20px;bottom: 670px;
+  width: 1400px;
+  margin-bottom: -10px;
+
+}
+.howText{
+  background-color: white;
+}
+.imgParcerias{
+  position: relative;right: -700px;top: -30px;
+  margin: 10px;
+}
+.bottomTextAutoral{
+  position: relative;top: 635px;
+  z-index: 20;
+  background-color: white;
+  text-align: center;
+}

@@ -1,7 +1,7 @@
 <html>
 <head>
-<title>Faça seu Login</title>
-<link rel="stylesheet" href="login.css">
+<title>Faça sua Conta</title>
+<link rel="stylesheet" href="signup.css">
 <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -21,26 +21,28 @@
           <a href="index.html" title="Volte à página inicial">PÁGINA INICIAL</a>
           <a href="contact.html" title="Contate-nos">CONTATO</a>
           <a href="about.html" title="Sobre nós">SOBRE</a>
-          <a href="signup.html" title="Faça sua Conta">SIGN UP</a>
-          <a href="login.html" class="active" title="Faça seu Login">LOGIN</a>
+          <a href="signup.html" class="active"  title="Faça sua Conta">SIGN UP</a>
+          <a href="login.html" title="Faça seu Login">LOGIN</a>
+          <a href="https://www.google.com/maps/place/Rua+Jaguaria%C3%ADva,+49+-+Alphaville+Graciosa,+Pinhais+-+PR,+83327-076/@-25.3929798,-49.1674555,17z/data=!3m1!4b1!4m5!3m4!1s0x94dcef21ab0b930b:0xcb6c7d6e5c14e67b!8m2!3d-25.3929798!4d-49.1652668" class="address" target="_blank" >Rua Jaguariaíva, 49 - Alphaville Graciosa, Pinhais - PR, 83327-076</a>
+          <p class="contacting">Whatsapp: (41) 3661-2350 <br> Email: paulo.moraes@leadingconsultoria.com.br</p> 
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
-          <a href="https://www.google.com/maps/place/Rua+Jaguaria%C3%ADva,+49+-+Alphaville+Graciosa,+Pinhais+-+PR,+83327-076/@-25.3929798,-49.1674555,17z/data=!3m1!4b1!4m5!3m4!1s0x94dcef21ab0b930b:0xcb6c7d6e5c14e67b!8m2!3d-25.3929798!4d-49.1652668" class="address" target="_blank" >Rua Jaguariaíva, 49 - Alphaville Graciosa, Pinhais - PR, 83327-076</a>
         </div> 
         
       </div> 
-  </div>
+  </div>  
 <div id="login-box">
   <div class="left">
-    <h1 id='status'>Login</h1>
+    <h1 id='status'>Sign Up</h1>
+    <input type="text" id="username" name="username" placeholder="Usuário" />
     <input type="text" id="email" name="email" placeholder="E-mail" />
     <input type="password" id="password" name="password" placeholder="Senha" />
-    <input type="submit" id='login' name="login" value="Login" />
-
+    <input type="submit" id='sighup' name="sighup_submit" value="Sign Up"/>
+    <p>Já tem sua conta? Faça seu <a href="login.html">Login</a></p>
   </div>
 </div>
-<script src="login.js"></script>
+<script type="module" src="signup.js"></script>
 <script src="contact.js"></script>
 </body>
 

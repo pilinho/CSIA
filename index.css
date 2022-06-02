@@ -1,520 +1,728 @@
 .title{
-    font-size: 35px;
-    position: relative;
-    width: 100%;
-    font-weight: bold, lighter;
-    position: relative;top: -10px;right: -0px;
-    z-index: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    text-align: center;
-    height: 625px;
-    background-image: url(ContCS.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  background-size: 100% 100%;
-  color: white;
-  text-decoration: overline;
+  font-size: 35px;
+  position: relative;
+  width: 100%;
+  font-weight: bold, lighter;
+  position: relative;right: 0px;top: -10px;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  height: 625px;
+  background-image: url(./Images/ContCS.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+background-size: 100% 100%;
+color: white;
+text-decoration: overline;
 }
 
 .LeadingImage{
-  margin-bottom: -10px;
-  margin-top: -10px;
+margin-bottom: -10px;
+margin-top: -10px;
 }
 
-#all2{ 
-  margin: 10;
-  top: 0;
-  width: 100%;
-  position:relative;
-  overflow: hidden;
-  transition: 0.3s;
-  z-index: 15;
-  background-color: white;
+#all2{
+width: 100%;
+position:relative;
+overflow: hidden;
+z-index: 15;
+height: 50px;
 }
 
 .speak{
-    position: relative;left: 400px;top: -67px;
-    z-index: 3;
-    
+  position: relative;left: 400px;top: -67px;
+  z-index: 3;
+  
 }
 
 .image{
-    position: relative;top: -45px;right: -600px;
-    padding-left:8px;
-    text-align: center;
-  }
+  position: relative;top: -45px;right: -600px;
+  padding-left:8px;
+  text-align: center;
+}
 
 
 .pageDown{
-    background-color: rgb(247, 146, 64);
-    height: 850px;
-    bottom: 0;
-    z-index: 3; 
-    position: relative;left: -20px;bottom: 670px;
-    width: 1400px;
-    margin-bottom: -10px;
+  background-color: rgb(247, 146, 64);
+  height: 850px;
+  bottom: 0;
+  z-index: 3; 
+  position: relative;left: -20px;bottom: 670px;
+  width: 1400px;
+  margin-bottom: -10px;
 
 }
 
-body{
-  background-color: 
-  max-width: 100%; overflow-x: hidden;
-  overflow-y:hidden;
-  height: 2550px;
+body{ 
+max-width: 100%; overflow-x: hidden;
+overflow-y:hidden;
+height: 2400px;
 }
 
 #all{
-  position: relative;z-index: 0;
-  background-color: whitesmoke;
+position: relative;z-index: 100;
+background-color: whitesmoke;
+float: none;
+display: block;
+text-align: left;
 }
 
 .address{
-  position: relative;right: -190px;
-  color: black;
-  z-index: 5;
+position: relative;
+color: black;
+z-index: 5;
 }
 
 .image3{
-    opacity: 40%;
-    position: relative;top: -450px;right: -20px;
+  opacity: 40%;
+  position: relative;top: -450px;right: -20px;
 }
 
 .talk{
-    position: relative;right: -300px;top: -300px;
+  position: relative;right: -300px;top: -300px;
 }
 
 .phone{
-    position: relative;right: -20px;
+  position: relative;right: -20px;
 }
 
 .mail{
-    position: relative;top: -77px;right: -100px;
+  position: relative;top: -77px;right: -100px;
 }
 
 .maps{
-    position: relative;right: 250px;top: 0px;
+  position: relative;right: 250px;top: 0px;
 }
 
 .bottom{
-    bottom: 0;
-    height: 100px;
-}
-
-.empresas{
-    position: relative;top: 35px;right: -10px;
-}
-
-.address a:hover{
-    background-color: grey;
-}
-
-@media screen and (max-width: 600px) {
-    li{
-      width: 100%;
-      display: block;
-    }
-    .containerLeft{
-      width: 100%;
-      position: relative;top: 0px;
-    }
-    .cardLeft{
-      position: relative;
-    }
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    z-index: 4;
-    position: relative;
-  }
-
-  li {
-    position: relative;left: -20px;
-    z-index: 10;
-    display: inline;
-  } 
-
-br{
-  display: block;
-}
-
-  html {
-    box-sizing: border-box;
-    font-size:100%;
-  }
-  
-  .row2{
-    position: relative;right: -850px;top: -160px;
-
-  }
-
-  .column2{
-    float: left;
-    width: 100%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-
-  .container2::after, .row2::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  @media screen and (max-width: 650px) {
-    .column2 {
-      width: 100%;
-      display: block;
-    }
-  }
-
-  .container2 {
-    padding: 0 16px;
-    text-align: justify;
-  }
-
-  .card2 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-    margin-bottom: 200px;
-    width: 300px;
-    position: relative;top: 100px;right: -1000px;
-  }
-
-  * {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 900px;
-  position: relative;top: -650px;right: -96px;
-  margin: auto;
-  align-self: center;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: -1250px;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: rgb(22, 11, 11);
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 225px;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: black;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-  background-color: whitesmoke;
-  width: 500px;
-  right: 300px;
-  z-index: 8;
-  top: -1350px;
+  bottom: 0;
   height: 100px;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+.empresas{
+  position: relative;top: 35px;right: -10px;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  position: relative;top: -600px;
+.address a:hover{
+  background-color: grey;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+@media screen and (max-width: 600px) {
+  li{
+    width: 100%;
+    display: block;
+  }
 }
 
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  z-index: 4;
+  position: relative;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+li {
+  position: relative;left: -20px;
+  z-index: 10;
+  display: inline;
+} 
+
+br{
+display: block;
 }
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+html {
+  box-sizing: border-box;
+  font-size:100%;
 }
 
-.leftListContainer{
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.slideshowImg{
-  border-radius: 20%;
-  width: 75%;
-  position: relative;top:-1700px;
-}
-
-.rowLeft{
+.row2{
   position: relative;right: -850px;top: -160px;
 
 }
 
-.columnLeft{
+.column2{
   float: left;
   width: 100%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
 
-.containerLeft::after, .rowLeft::after {
+.container2::after, .row2::after {
   content: "";
   clear: both;
   display: table;
 }
 
-@media screen and (max-width: 700px) {
-  .columnLeft {
-    width: 100%;
-    display: block;
-  }
-  .slideshowImg{
-    width: 100%;
-    position: relative;;right: 43px;
-    top: -1080px;
-    margin: 20px;
-  }
-  .dotMedia{
-    position: relative;
-    bottom: -570px;left: -400px;
-  }
-  .prev{
-    position: relative;top: -1195px;
-  }
-  .next{
-    position: relative;top: -1190px;left: 270px;
-  }
-  .card2{
-    position:relative;left: 10px;top: 1200px;
-  }
-  .pageDown{
-    position:relative;
-    overflow: scroll;
-    bottom: 0;
-  }
-  .text{
-    position: relative;top: -1190px;right: -25px;
-    font-size: 2vw;
-    width: 300px;
-  }
-  body{
-    height: 3500px;
-  }
-}
-
-.containerLeft {
-  padding: 0 16px;
-  text-align: left;
-}
-
-.cardLeft {
+.card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
   margin-bottom: 200px;
   width: 300px;
-  position: relative;top: -700px;right: 00px;
-  height: 750px;
+  position: relative;top: 100px;right: -1000px;
+}
+
+@media screen and (max-width: 650px) {
+  .column2 {
+    width: 100%;
+    display: block;
+  }
+}
+
+.container2 {
+  padding: 0 16px;
+  text-align: justify;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  margin-bottom: 200px;
+  width: 300px;
+  position: relative;top: 100px;right: -1000px;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+max-width: 900px;
+position: relative;top: -650px;right: -96px;
+margin: auto;
+align-self: center;
+}
+
+.mySlides {
+display: none;
+}
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: -1250px;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: rgb(22, 11, 11);
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+.next {
+right: 225px;
+border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+color: black;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+background-color: whitesmoke;
+width: 500px;
+right: 300px;
+z-index: 8;
+top: -1350px;
+height: 100px;
+}
+
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+position: relative;top: -600px;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+.leftListContainer{
+font-weight: bold;
+text-decoration: underline;
+margin: 5% auto 15% auto;
+}
+
+.slideshowImg{
+border-radius: 20%;
+width: 75%;
+position: relative;top:-1700px;
+margin: 5% auto 15% auto;
+}
+
+.rowLeft{
+position: relative;right: -850px;top: -160px;
+}
+
+.columnLeft{
+float: left;
+width: 100%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+.containerLeft::after, .rowLeft::after {
+content: "";
+clear: both;
+display: table;
+}
+
+
+@media screen and (max-width: 768px) {
+.slideshowImg{
+  width: 100%;
+  position: relative;;right: 43px;
+  top: -800px;
+  margin: 20px;
+}
+.dotMedia{
+  position: relative;
+  bottom: -570px;left: -400px;
+}
+.prev{
+  position: relative;top: -1195px;
+}
+.next{
+  position: relative;top: -1190px;left: 270px;
+}
+.card2{
+  position:relative;left: 0px;top: 1000px; font-size: 2vw;
+}
+.pageDown{
+  position:relative;
+  overflow: hidden;
+  bottom: -350px;
+  height: 800px;
+  overflow-y: hidden;
+}
+.text{
+  position: relative;top: -910px;right:-75px;
+  font-size: 2vw;
+  width: 300px;
+}
+body{
+  height: 3400px;
+}
+.empresas{
+  position: relative;left: -70px;
+}
+.maps{
+  width: 400px;
+  position: relative;left: 40px;top: 20px;
+}
+.talk{
+  position: relative;left: 100px;top: -150px;
+}
+.imgParcerias{
+  position: relative;left: 310px;top: 20px;
+  width: 300px;
+}
+.bottomTextAutoral{
+  text-align: center;
+  position: relative;left: -410px;
+}
+.card2{
+  position: relative;top: 1250px;
+}
+.containerLeft{
+  width: 100%;
+  position: relative;top: 0px;
+}
+.cardLeft{
+  position: relative;
+}
+}
+
+@media screen and (max-width: 600px) {
+.title{
+  height: 300px;
+  font-size: 3vw;
+  background-image: url(./Images/ContCS.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+background-size: 100% 100%;
+background-color: white;
+margin-bottom: 170px;
+}
+.imgabout{
+  width: 200px;
+}
+.containerLeft{
+  width: 100%;
+  position: relative;top: 0px;
+  font-size: 2vw;
+}
+.slideshowImg{
+  width: 100%;
+  position: relative;;right: 63px;
+  top: -1150px;
+  margin: 20px;
+}
+.dotMedia{
+  position: relative;
+  bottom: -570px;left: -400px;
+}
+.prev{
+  position: relative;top: -1195px;
+}
+.next{
+  position: relative;top: -1190px;left: 270px;
+}
+.card2{
+  position:relative;left: 0px;top: 1000px; font-size: 2vw;
+}
+.container2{
+  width: 250px;
+}
+h2{
+  font-size: 3vw;
+}
+.pageDown{
+  position:relative;
+  overflow: hidden;
+  bottom: -65px;
+  height: 800px;
+  overflow-y: hidden;
+}
+.text{
+  position: relative;top: -1260px;right: -5px;
+  height: 120px;
+  font-size: 2vw;
+  width: 300px;
+}
+body{
+  height: 2720px;
+}
+.empresas{
+  position: relative;left: -70px;
+}
+.maps{
+  width: 400px;
+  position: relative;left: 15px;top: 20px;
+}
+.talk{
+  position: relative;left: 100px;top: -150px;;
+}
+.imgParcerias{
+  position: relative;left: 310px;top: 20px;
+  width: 200px;
+}
+.bottomTextAutoral{
+  text-align: center;
+  position: relative;left: -455px;
+  font-size: 2vw;
+}
+}
+
+@media screen and (max-width: 500px) {
+.title{
+  height: 300px;
+  font-size: 3vw;
+  background-image: url(./Images/ContCS.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+background-size: 100% 100%;
+background-color: white;
+margin-bottom: 360px;
+}
+.imgabout{
+  width: 100px;
+  position: relative;left:70px;
+}
+.columnLeft {
+  width: 100%;
+  display: block;
+  height: 100px;
+}
+.slideshowImg{
+  width: 100%;
+  position: relative;;right: 63px;
+  top: -1000px;
+  margin: 20px;
+}
+.dotMedia{
+  position: relative;
+  bottom: -570px;left: -400px;
+}
+.prev{
+  position: relative;top: -1195px;
+}
+.next{
+  position: relative;top: -1190px;left: 270px;
+}
+.card2{
+  position:relative;left: 27px;top: 850px; font-size: 2vw;
+  height: 250px;
+  width: 250px;
+  display: grid;
+}
+h2{
+  font-size: 3vw;
+}
+.pageDown{
+  position:relative;
+  overflow: hidden;
+  bottom: 200px;
+  height: 800px;
+  overflow-y: hidden;
+}
+.text{
+  position: relative;top: -1110px;right: 24px;
+  font-size: 2vw;
+  width: 300px;
+}
+body{
+  height: 2320px;
+}
+.empresas{
+  position: relative;left: -70px;
+}
+.maps{
+  width: 200px;
+  position: relative;left: 100px;top: -100px;
+  height: 200px;
+}
+.talk{
+  position: relative;left: 100px;top: -150px;
+  width: 100px;
+}
+.imgParcerias{
+  position: relative;left: 310px;top: 20px;
+  width: 200px;
+}
+.cardLeft{
+  font-size: 2vw;
+  height: 200px;
+}
+.containerLeft{
+  width: 200px;
+}
+}
+@media screen and (max-width: 350px) {
+.title{
+  height: 300px;
+  font-size: 3vw;
+  background-image: url(./Images/ContCS.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+background-size: 100% 100%;
+background-color: white;
+margin-bottom: 250px;
+}
+.imgabout{
+  width: 100px;
+  position: relative;left:70px;
+}
+.columnLeft {
+  display: block;
+  height: 100px;
+}
+.slideshowImg{
+  width: 100%;
+  position: relative;;right: 63px;
+  top: -1200px;
+  margin: 20px;
+}
+.dotMedia{
+  position: relative;
+  bottom: -570px;left: -400px;
+}
+.prev{
+  position: relative;top: -1195px;
+}
+.next{
+  position: relative;top: -1190px;left: 270px;
+}
+.card2{
+  position:relative;left: 0px;top: 250px; font-size: 2vw;
+  height: 250px;
+  width: 250px;
+  display: grid;
+}
+h2{
+  font-size: 3vw;
+}
+.pageDown{
+  position:relative;
+  overflow: hidden;
+  bottom: 800px;
+  height: 500px;
+  overflow-y: hidden;
+}
+.text{
+  position: relative;top: -1310px;right: 42px;
+  font-size: 2vw;
+  width: 200px;
+  height: 50px;
+}
+body{
+  height: 1520px;
+}
+.empresas{
+  position: relative;left: -70px;
+}
+.maps{
+  width: 200px;
+  position: relative;left: 25px;top: -100px;
+  height: 125px;
+}
+.talk{
+  position: relative;left: 100px;top: -120px;
+  width: 100px;
+}
+.imgParcerias{
+  position: relative;left: 230px;top: 20px;
+  width: 100px;
+}
+.cardLeft{
+  font-size: 2vw;
+  height: 200px;
+}
+.containerLeft{
+  width: 200px;
+}
+}
+
+.containerLeft {
+padding: 0 16px;
+text-align: left;
+}
+
+.cardLeft {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+margin: 8px;
+margin-bottom: 200px;
+width: 300px;
+position: relative;top: -700px;right: 00px;
+height: 750px;
+margin: auto 15% auto 1%;
 }
 
 .imgParcerias{
-  position: relative;right: -700px;top: -30px;
-  margin: 10px;
+position: relative;right: -700px;top: -30px;
+margin: 10px;
 }
 
-/*General*/
 body * {
-  font-family: "Montserrat", sans-serif;
+font-family: "Montserrat", sans-serif;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-weight: bold;
+font-weight: bold;
 }
 
 ul li {
-  border: none !important;
+border: none !important;
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
-  background-color: white;
-  overflow: hidden;
-  position: relative;
-  z-index: 30;
-  transition: top 0.3s;
+overflow: hidden;
+position: relative;
+z-index: 30;
+transition: top 0.3s;
+background-color: white;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+background-color: #ddd;
+color: black;
 }
 
-/* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: blue;
-  color: white;
+background-color: blue;
+color: white;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
-  display: none;
+display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
+.topnav a:not(:first-child) {display: none;}
+.topnav a.icon {
+  float: right;
+  display: block;
+}
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 800px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .address{
-    position: relative;left: 0px;
-  }
-  .topnav{
-    overflow: hidden;
-    z-index: 2;
-  }
-}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5px auto; /* 15% from the top and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-  /* Position it in the top right corner outside of the modal */
+.topnav.responsive {position: relative;}
+.topnav.responsive a.icon {
   position: absolute;
-  right: 25px;
+  right: 0;
   top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
+}
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+.address{
+  position: relative;left: 0px;
+}
+.topnav{
+  overflow: hidden;
+  z-index: 2;
+}
 }
 
-/* Close button on hover */
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)}
-  to {-webkit-transform: scale(1)}
-}
-
-@keyframes animatezoom {
-  from {transform: scale(0)}
-  to {transform: scale(1)}
-}
 .bottomTextAutoral{
-  position: relative;top: 635px;
-  z-index: 20;
-  background-color: white;
-  text-align: center;
+position: relative;top: 635px;
+z-index: 20;
+background-color: white;
+text-align: center;
 }
+
