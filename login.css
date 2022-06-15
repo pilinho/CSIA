@@ -1,7 +1,7 @@
 #all2{ 
   top: 0;
   width: 100%;
-  position:fixed;
+  position:relative;
   transition: 0.3s;
   z-index: 15;
   background-color: white;
@@ -116,7 +116,6 @@ background-color: #fefefe;
 margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
 width: 80%;
 text-align: center;
-
 }
 .button{
 position: relative;left: 38px;top: 50px;
@@ -158,6 +157,7 @@ background: #FFF;
 border-radius: 2px;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 text-align: center;
+top: 50px;
 }
 
 .left {
@@ -296,4 +296,7 @@ background: #55ACEE;
 
 button.social-signin.google {
 background: #DD4B39;
+}
+.contacting{
+  text-align: center;
 }
