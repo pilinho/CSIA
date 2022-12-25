@@ -1,3 +1,4 @@
+  
 function myFunction() {
   var x = document.getElementById("all2");
   if (x.className === "topnav") {
@@ -5,7 +6,7 @@ function myFunction() {
   } else {
     x.className = "topnav";
   }
-}
+  }
   
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-app.js";
@@ -28,6 +29,33 @@ function myFunction() {
   const app = initializeApp(firebaseConfig);
   const database = getDatabase(app);
   const auth = getAuth();
+
+  sighup.addEventListener('click', (e) =>{
+
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    var username = document.getElementById('username').value;
+    
+    createUserWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+    // Signed in
+      const user = userCredential.user;
+
+      set(ref(database, 'users/' + user.uid),{
+        username: username,
+        email: email
+      })
+      alert('Usuário criado com sucesso!');
+    // ...
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+
+        alert(errorMessage);
+    // ..
+      });
+  })
 
   login.addEventListener('click',(e)=>{
     var email = document.getElementById('email').value;

@@ -12,19 +12,18 @@
 }
 #title{
   background-color: rgba(19, 70, 179, 0.575);
+  margin: 5% auto 15% auto;
   height: 200px;
   width: 1055px;
   text-align: center;
   align-items: center;
-  margin: 5% auto 15% auto;
 }
 
 .subject{
   background-color: white;
   text-decoration: none;
-  position: relative;top: -350px;
+  position: relative;top: -300px;
   margin: 5% auto 15% auto;
-  font-size: 1vw;
 }
 .mainButton a {
   display: block;
@@ -49,7 +48,7 @@
     overflow: hidden;
     height: 1485px;
     background-color: whitesmoke;
-    background-image: url(./Images/CSimage6.jpg);
+    background-image: url(CSimage6.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
   background-size: 100% 100%;
@@ -68,6 +67,9 @@ body * {
   font-family: "Montserrat", sans-serif;
 }
 
+h1{
+  margin: 5% auto 15% auto;
+}
 h1,
 h2,
 h3,

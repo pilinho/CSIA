@@ -1,6 +1,7 @@
 #all2{ 
     top: 0;
     width: 100%;
+    position:fixed;
     overflow: hidden;
     transition: 0.3s;
     z-index: 15;
@@ -111,6 +112,7 @@ h1{
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   width: 80%;
   text-align: center;
+  
 }
 .button{
   position: relative;left: 38px;top: 50px;
@@ -145,7 +147,7 @@ body {
 
 #login-box {
   position: relative;
-  margin: 15% auto 15% auto;
+  margin: 5% auto 15% auto;
   width: 300px;
   height: 400px;
   background: #FFF;
@@ -290,8 +292,4 @@ button.social-signin.twitter {
 
 button.social-signin.google {
   background: #DD4B39;
-}
-
-.contacting{
-  text-align: center;
 }

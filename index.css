@@ -3,12 +3,12 @@
   position: relative;
   width: 100%;
   font-weight: bold, lighter;
-  position: relative;right: 0px;top: 0px;
-  z-index: 1;
+  position: relative;right: 0px;top: -10px;
+  z-index: 0;
   background-color: rgba(0, 0, 0, 0.6);
   text-align: center;
   height: 625px;
-  background-image: url(./Images/ContCS.jpg);
+  background-image: url(ContCS.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 background-size: 100% 100%;
@@ -25,7 +25,8 @@ margin-top: -10px;
 width: 100%;
 position:relative;
 overflow: hidden;
-z-index: 0;
+z-index: 15;
+height: 50px;
 }
 
 .speak{
@@ -59,11 +60,8 @@ height: 2400px;
 }
 
 #all{
-position: relative;z-index: 1;
+position: relative;z-index: 100;
 background-color: whitesmoke;
-float: none;
-display: block;
-text-align: left;
 }
 
 .address{
@@ -376,7 +374,7 @@ body{
 .title{
   height: 300px;
   font-size: 3vw;
-  background-image: url(./Images/ContCS.jpg);
+  background-image: url(ContCS.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 background-size: 100% 100%;
@@ -457,7 +455,7 @@ body{
 .title{
   height: 300px;
   font-size: 3vw;
-  background-image: url(./Images/ContCS.jpg);
+  background-image: url(ContCS.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 background-size: 100% 100%;
@@ -541,7 +539,7 @@ body{
 .title{
   height: 300px;
   font-size: 3vw;
-  background-image: url(./Images/ContCS.jpg);
+  background-image: url(ContCS.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 background-size: 100% 100%;
@@ -660,6 +658,7 @@ border: none !important;
 .topnav {
 overflow: hidden;
 position: relative;
+z-index: 30;
 transition: top 0.3s;
 background-color: white;
 }
@@ -719,7 +718,7 @@ display: none;
 
 .bottomTextAutoral{
 position: relative;top: 635px;
+z-index: 20;
 background-color: white;
 text-align: center;
 }
-
